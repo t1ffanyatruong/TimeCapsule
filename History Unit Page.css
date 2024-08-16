@@ -1,0 +1,252 @@
+body {
+    font-family: Outfit;
+    margin: 0 auto; 
+    color: #3b4144;
+    background-color: #FFF7E6;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+}
+    
+.logo{
+    padding:1.8rem 0;
+    display:flex;
+    align-items:end;
+}
+
+.company-name{
+    padding-left:1rem;
+    font-size:1.1rem;
+    font-weight:600;
+    font-family:Outfit;
+    color: #E29804;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    padding: 20px;
+}
+
+.icon{
+    display: none;
+}
+
+h1{
+    margin:32px;
+    color:#7A8F38;
+    margin-bottom: 0;
+    padding-top:24px;
+}
+
+h3{
+    margin:32px;
+    margin-top:8px;
+    font-family: Merriweather;
+    font-size: 1rem;
+    font-weight:400;
+    padding-left:6px;
+    color: #535353;
+}
+.learn-link{
+    font-weight:700;
+    color:#78B0FF;
+}
+
+#homepage:hover{
+font-weight:600;
+color:#7A8F38;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:24px;
+    padding: 16px 0;
+    margin:32px;
+}
+
+.grid__card{
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    max-height:30rem;
+    max-width: 40rem;
+    border-radius: 4px;
+ }
+
+ .bookmark__cta{
+    display:block;
+    position: absolute;
+    top: 8px;
+    right:12px;
+    z-index:2;
+    padding: 8px;
+ }
+
+
+ #image-1{
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/the-american-revolution-george-everett.jpg) no-repeat center center;
+ }
+
+ #image-2{
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/writing-the-declaration-of-independence-war-is-hell-store.jpg) no-repeat center center;
+ }
+
+ #image-3{
+    background: url(https://static.wixstatic.com/media/8fc69e_ddc22d4483a74976a8e27f26be1825c8~mv2.jpg/v1/fill/w_640,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8fc69e_ddc22d4483a74976a8e27f26be1825c8~mv2.jpg) no-repeat center center;
+ }
+
+ #image-4{
+    background: url(https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/birth-of-the-flag-henry-mosler.jpg) no-repeat center center;
+ }
+
+ .card__description{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    margin-top:20rem;
+    height:5rem;
+}
+
+a{
+    text-decoration: none;
+    color:#3b4144;
+    
+}
+
+a:hover{
+    color:#F04112;
+}
+
+h5{
+    font-family: Merriweather;
+    margin-bottom: 6px;
+    margin-left:.8rem;
+}
+
+p{
+    font-size: .9rem;
+    margin-top: 0;
+    margin-left:.8rem;
+}
+
+button{
+    background: url(./Images/bookmark.svg) no repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    border-style:none;
+    background-color: white;
+    padding:8px;
+    padding-bottom:6px;
+}
+   
+
+button:hover {
+    background-color: #78B0FF;
+  }
+
+@media (max-width:600px){
+
+    .cta{
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+.icon{
+    display:block;
+    margin-top: 12px;
+    
+}
+
+  .nav__links{
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    background-color: #024F8A;
+    font-size:.9rem;
+    margin: 0; 
+    padding: 0 24px; 
+    color:white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5
+  }
+
+  li{
+    padding:8px;
+    margin-bottom:8px;
+  }
+
+  .learn-link{
+    font-weight:600;
+    color:#FAA9A5;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 12px;
+    padding:0px;
+    margin-bottom: 8rem;
+}
+
+h1{
+    font-size:1.9rem;
+    margin:16px;
+    margin-bottom: 32px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h3{
+    margin-left:16px;
+}
+
+.card__description{
+    padding:0px 8px 12px;
+}
+
+#homepage:hover{
+    display:none;
+    }
+
+button:hover{
+    display: none;
+}
+
+#key__battles{
+    color:#3b4144;
+}
+a:hover{
+    display: none;
+}
+
+}
+

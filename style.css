@@ -1,0 +1,226 @@
+body {
+    font-family: Outfit;
+    margin: 0 auto; 
+    color: #3b4144;
+    background-color: #FFF7E6;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+    
+.logo{
+    padding:1.8rem 0 ;
+    display:flex;
+    align-items:end;
+}
+
+.company-name{
+    padding-left:1rem;
+    font-size:1.1rem;
+    font-weight:600;
+    font-family:Outfit;
+    color: #E29804;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    padding: 20px;
+}
+
+.icon{
+    display: none;
+}
+
+h1{
+    margin:32px;
+    padding-top:24px;
+    color:#7A8F38;
+}
+
+.learn-link{
+    font-weight:700;
+    color:#78B0FF;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:24px;
+    padding: 16px;
+    margin:32px;
+}
+
+.grid__card{
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    max-height:30rem;
+    max-width: 40rem;
+    border-radius: 4px;
+ }
+
+ .bookmark__cta{
+    display:block;
+    position: absolute;
+    top: 8px;
+    right:12px;
+    z-index:2;
+    padding: 8px;
+ }
+
+
+ #image-1{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Emanuel_Gottlieb_Leutze_-_Columbus_Before_the_Queen.JPG/800px-Emanuel_Gottlieb_Leutze_-_Columbus_Before_the_Queen.JPG) no-repeat center center;
+ }
+
+ #image-2{
+    background: url(https://caribbean-painters.com/wp-content/uploads/2015/11/agostinio-brunias-2.jpg) no-repeat center center;
+ }
+
+ #image-3{
+    background: url(https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/betsy-ross-and-general-george-washington-war-is-hell-store.jpg) no-repeat center center;
+ }
+
+ #image-4{
+    background: url(https://www.americanrevolutioninstitute.org/wp-content/uploads/2020/11/Marion-Inviting-British-Officer-John-Blake-White-MFA-Boston.jpg) no-repeat center center;
+ }
+
+ #image-5{
+    background: url(https://www.nga.gov/content/dam/ngaweb/Education/learning-resources/lessons-activities/Uncovering-America/Eastman-Ball%20Playing-WSS.jpg) no-repeat center center;
+ }
+
+ #image-6{
+    background: url(https://static01.nyt.com/images/2013/05/31/arts/31CIVIL/CIVIL-articleLarge.jpg?quality=75&auto=webp&disable=upscale) no-repeat center center;
+ }
+
+ #image-7{
+    background: url(https://www.nga.gov/content/dam/ngaweb/Education/teachers/Brown-Longshoremens-Noon-WSS.jpg) no-repeat center center;
+ }
+
+ #image-8{
+    background: url(https://media.mutualart.com/Images//2015_12/18/09/094844062/b32f7250-9301-4040-aca5-df9a339edfd1.Jpeg) no-repeat center center;
+ }
+
+
+
+.card__description{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    margin-top:20rem;
+    padding-left:8px;
+    height:5rem;
+}
+
+a{
+    text-decoration: none;
+    color:#3b4144;
+}
+
+a:hover{
+    color:#F04112;
+}
+
+h5{
+    font-family: Merriweather;
+    margin-bottom: 6px;
+    margin-left:.5rem;
+}
+
+p{
+    font-size: .9rem;
+    margin-top: 0;
+    margin-left:.5rem;
+}
+
+button{
+    background: url(./Images/bookmark.svg) no repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    border-style:none;
+    background-color: white;
+    padding:8px;
+    padding-bottom:6px;
+}
+   
+
+button:hover {
+    background-color: #78B0FF;
+  }
+
+@media (max-width:600px){
+
+    .cta{
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+.icon{
+    display:block;
+    margin-top: 12px;
+    
+}
+
+  .nav__links{
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    background-color: #024F8A;
+    font-size:.9rem;
+    margin: 0; 
+    padding: 0 24px; 
+    color:white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5
+  }
+
+  li{
+    padding:8px;
+    margin-bottom:8px;
+  }
+
+  .learn-link{
+    font-weight:600;
+    color:#FAA9A5;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 12px;
+    padding:0px;
+    margin-bottom: 8rem;
+}
+
+h1{
+    font-size:1.9rem;
+    margin:16px;
+    margin-bottom: 32px;
+}
+
+.card__description{
+    padding:0px 8px 12px;
+}
+
+a:hover{
+    display:none;
+}
+
+}
+
