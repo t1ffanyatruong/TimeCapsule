@@ -168,6 +168,16 @@ button:hover {
 
     }
 
+    .company-name{
+        font-size:.8rem;
+        font-weight:500;
+    }
+
+    .logo-image{
+        height:20px;
+    }
+
+
 .icon{
     display:block;
     margin-top: 12px;
@@ -209,7 +219,8 @@ button:hover {
 }
 
 h1{
-    font-size:1.9rem;
+    font-size:1.3rem;
+    font-weight:600;
     margin:16px;
     margin-bottom: 32px;
 }

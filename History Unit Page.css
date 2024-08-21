@@ -191,6 +191,15 @@ button:hover {
     z-index: 5
   }
 
+  .logo-image{
+    height:20px;
+}
+
+.company-name{
+    font-size:.8rem;
+    font-size:500;
+}
+
   li{
     padding:8px;
     margin-bottom:8px;
@@ -211,7 +220,8 @@ button:hover {
 }
 
 h1{
-    font-size:1.9rem;
+    font-size:1.3rem;
+    font-weight: 600;
     margin:16px;
     margin-bottom: 32px;
 }
@@ -227,6 +237,7 @@ h1{
 
 h3{
     margin-left:16px;
+    font-size:.9rem;
 }
 
 .card__description{

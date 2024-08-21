@@ -192,6 +192,15 @@ margin-right:8px;
     
 }
 
+.company-name{
+    font-size:.8rem;
+    font-weight:500;
+}
+
+.logo-image{
+    height:20px;
+}
+
   .nav__links{
     display: flex;
     flex-direction: row;
@@ -210,6 +219,7 @@ margin-right:8px;
   li{
     padding:8px;
     margin-bottom:8px;
+    font-size:15px;
   }
 
   .learn-link{
@@ -244,6 +254,14 @@ h6{
     padding-bottom:8px;
 }
 
+h1{
+    font-size:1.3rem;
+    font-weight:600;
+}
 
+h5{
+    line-height: 1.7rem;
+    font-size:14px;
+}
 }
 
